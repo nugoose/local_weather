@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- google font -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- js -->
+    <script src="local_weather.js"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- css -->
+    <link type="text/css" rel='stylesheet' href='/css/local_weather.css'>
+    <!-- weather icons -->
+    <link rel='stylesheet' href='/css/weather-icons.css'>
+    <!-- weather icons min -->
+    <link rel='stylesheet' href='css/weather-icons.min.css'>
+</head>
+<body>
+
+    <div class="container">
+      <div id='aboutSlider'>
+        <p>info</p>
+      </div>
+        <div id="aboutFrame">
+            <p>Fortunately/unfortunately, for the API to work properly you need to view this webpage over http. Why? This is <a href='https://support.mozilla.org/en-US/kb/mixed-content-blocking-firefox' target='_blank'>why</a>.</p>
+        </div>
+        
+      <!-- ASCII ART -->  
+      <p id="clock"></p>
+        <pre>
+        __  __   ______   __  __   ______       __       ______   ______   ______   __        
+       /\ \_\ \ /\  __ \ /\ \/\ \ /\  == \     /\ \     /\  __ \ /\  ___\ /\  __ \ /\ \       
+       \ \____ \\ \ \/\ \\ \ \_\ \\ \  __&lt;     \ \ \____\ \ \/\ \\ \ \____\ \  __ \\ \ \____  
+        \/\_____\\ \_____\\ \_____\\ \_\ \_\    \ \_____\\ \_____\\ \_____\\ \_\ \_\\ \_____\ 
+         \/_____/ \/_____/ \/_____/ \/_/ /_/     \/_____/ \/_____/ \/_____/ \/_/\/_/ \/_____/ 
+        </pre>
+        <pre>
+         __     __     ______     ______     ______   __  __     ______     ______    
+        /\ \  _ \ \   /\  ___\   /\  __ \   /\__  _\ /\ \_\ \   /\  ___\   /\  == \   
+        \ \ \/ ".\ \  \ \  __\   \ \  __ \  \/_/\ \/ \ \  __ \  \ \  __\   \ \  __&lt;   
+         \ \__/".~\_\  \ \_____\  \ \_\ \_\    \ \_\  \ \_\ \_\  \ \_____\  \ \_\ \_\ 
+          \/_/   \/_/   \/_____/   \/_/\/_/     \/_/   \/_/\/_/   \/_____/   \/_/ /_/ 
+
+
+        </pre>
+
+    <div class="container" id="textDiv">
+      <button class="btn btn-primary" type="button" id="geoButton">click me</button>(this is an ip based search)
+
+      <button class="btn btn-primary" type="button" id="cityButton">search city</button>
+      <input id="searchBox" type="text" value="or enter your city">
+    </div>
+
+        <p id="yourCoords"></p>
+        <p id="yourWeather"></p>
+
+    </div>    
+    
+</body>
+</html>

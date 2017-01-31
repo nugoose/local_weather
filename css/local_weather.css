@@ -1,0 +1,58 @@
+*{
+  font-family: 'Source Code Pro';
+}
+
+body{
+  background-color: #808080;
+  height: 100%;
+}
+
+#aboutFrame{
+  background-color: #333;
+  width: 310px;
+  height: 150px;
+  border: 2px solid #3385ff;
+  position: absolute;
+  top: 39px;
+  left: 0%;
+  display: none;
+}
+
+#aboutSlider{
+  background-color: #333;
+  width:310px;
+  height:40px;
+  border: 2px solid #3385ff;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  cursor: pointer;
+}
+
+#aboutFrame p, #aboutSlider p{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: 5px;
+}
+
+pre{
+  background-color: #808080;
+  border: none;
+  padding: 0;
+}
+
+div{
+  position: relative;
+  text-align: center;
+}
+
+p{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.btn:focus, .btn:active:focus{
+  outline: none;
+}
